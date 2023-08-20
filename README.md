@@ -1,2 +1,11 @@
 # DoorDash
-Doordash - Predictive model for accurately estimating total delivery duration|Linear Regression,LGBM|Personal Project Build a predictive model for DoorDash to accurately estimate the total delivery duration in seconds from order submission to actual delivery, enhancing consumer experience.
+Doordash - Predictive model for accurately estimating total delivery duration|Linear Regression,LGBM|Personal Project 
+
+## Project Description 
+When a consumer places an order on DoorDash, we show the expected time of delivery. It is very important for DoorDash to get this right, as it has a big impact on consumer experience. In this exercise, you will build a model to predict the estimated time taken for a delivery.
+
+Concretely, for a given delivery you must predict the total delivery duration seconds , i.e., the time taken from
+
+**Start**: the time consumer submits the order (`created_at`) to
+**End**: when the order will be delivered to the consumer (`actual_delivery_time`)
+
